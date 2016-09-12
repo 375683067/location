@@ -1,0 +1,45 @@
+@import url("./reset.scss");
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 10px 10px 30px 10px ;
+  background-color: #e7e8ea;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+.md-app__content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  right: 10px;
+  bottom: 30px;
+}
+
+.md-text-input.md-category-item__label {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+@import url("./buttons.scss");
+@import url("./header.scss");
+@import url("./block.scss");
+@import url("./locationEditor.scss");
+@import url("./locationsList.scss");
+@import url("./bottomPanel.scss");
+@import url("./locationViewer.scss");

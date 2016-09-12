@@ -1,0 +1,47 @@
+.md-category-item {
+  margin: 10px 0;
+}
+
+.md-category-item__edit-buttons-container,
+.md-category-item__label {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.md-category-editor__existed-categories {
+  margin-top: 25px;
+}
+.md-category-item__label {
+  &:focus {
+    outline: 1px solid cornflowerblue;
+  }
+  width: 320px;
+  border: none;
+  box-sizing: border-box;
+  margin-right: 10px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  outline: .1rem solid aliceblue;
+}
+
+.md-category-item__edit-buttons-container {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.md-category-item__label_edited {
+  position: relative;
+  width:100%;
+  box-sizing: border-box;
+
+  &:not(:focus):after {
+    content: '';
+    background-image: url(../images/ic_edit_24px.svg);
+    background-size: contain;
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    display: inline-block;
+  }
+}

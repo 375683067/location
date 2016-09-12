@@ -1,0 +1,26 @@
+.md-app__footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.md-app__footer-item_locations:before {
+  content: ' ';
+  background-image: url('../images/ic_location_on_black_24px.svg');
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+
+.md-app__footer-item_categories:before {
+  content: ' ';
+  background-image: url('../images/ic_list_black_24px.svg');
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}

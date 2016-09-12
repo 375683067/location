@@ -1,0 +1,24 @@
+.md-location-viewer__toggle-button-container {
+  margin-bottom: 5px;
+}
+
+.md-group-name-label {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.md-map-view {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, .9);
+}
+
+#map {
+  position: absolute;
+  left: 50%; top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}

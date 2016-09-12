@@ -1,0 +1,22 @@
+.md-list-item {
+  border-bottom: 1px solid aliceblue;
+  padding: 4px 0;
+}
+
+.md-list-item:last-child{
+  border-bottom: none;
+}
+
+.md-list-item__line {
+  line-height: 1em;
+}
+
+
+.md-list-item__title {
+  width: 150px;
+  display: inline-block;
+}
+
+.md-list-item__button-container {
+  margin-top: 5px;
+}
